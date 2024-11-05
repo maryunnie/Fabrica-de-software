@@ -1,12 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #1a1a1a;
+    background: linear-gradient(to bottom, #000000, #530C0C);
     color: white;
 }
 
 .delete-modal {
-    background: linear-gradient(to bottom, #000000, #4e0101);
+    background: linear-gradient(to bottom, #000000, #530C0C);
     padding: 20px;
     max-width: 400px;
     margin: 100px auto;
@@ -28,7 +28,7 @@ body {
 }
 
 .btn {
-    background-color: #ff3b3b;
+    background-color: #D23636;
     color: white;
     padding: 10px;
     border: none;
@@ -50,7 +50,7 @@ table {
     width: 80%;
     margin: 0 auto;
     border-collapse: collapse;
-    background: linear-gradient(to bottom, #000000, #4e0101);
+    background: linear-gradient(to bottom, #000000,#530C0C);
 }
 
 table, th, td {
@@ -58,6 +58,7 @@ table, th, td {
 }
 
 th, td {
+    background-color:#272525;
     padding: 10px;
     color: white;
 }
@@ -71,23 +72,27 @@ th, td {
 }
 
 .delete {
-    background-color: #ff3b3b;
+    background-color: #D23636;
 }
 
 .plans-section {
     display: flex;
+    /*justify-content:center;
+    flex-wrap: wrap;*/
     justify-content: space-around;
     margin: 50px auto;
     max-width: 1000px;
+    /*gap: 20px;*/
 }
 
 .plan {
-    background: linear-gradient(to bottom, #000000, #4e0101);
+    background:#272525;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     color: white;
     width: 250px;
+   /* width: 300px;*/
 }
 
 .plan h3 {
@@ -107,3 +112,4 @@ th, td {
 .plan ul li {
     margin-bottom: 10px;
 }
+
