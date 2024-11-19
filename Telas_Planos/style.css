@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    /*font-family: Arial, sans-serif;*/   
     background: linear-gradient(to bottom, #000000, #530C0C);
     color: white;
 }
 
-.delete-modal {
+/*.delete-modal {
     background: linear-gradient(to bottom, #000000, #530C0C);
     padding: 20px;
     max-width: 400px;
@@ -15,7 +15,7 @@ body {
     text-align: center;
 }
 
-/*.delete-modal h2 {
+.delete-modal h2 {
     margin-bottom: 20px;
 }
 
@@ -25,16 +25,17 @@ body {
     margin-bottom: 10px;
     border: none;
     border-radius: 5px;
-}*/
+}
 
 .btn {
     background-color: #D23636;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius:5px;
-    width: 10%;
-    /*grid-row: auto;*/
+    color: #E5E5E5;
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 200px;
+    height: 40px;
+    font-family: "Jockey One", sans-serif;
+    border-radius: 10px;
 }
 
 .btn:hover {
@@ -68,40 +69,50 @@ th, td {
 }
 
 .actions .btn {
-    margin: 0 10px;
+    margin-left: 500px;
+
 }
 
 .delete {
     background-color: #D23636;
-}
+}*/
 
 .plans-section {
     display: flex;
-    /*justify-content:center;
-    flex-wrap: wrap;*/
+    justify-content:center;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 50px auto;
     max-width: 1000px;
-    /*gap: 20px;*/
+    gap: 20px;
 }
 
 .plan {
     background:#272525;
     padding: 20px;
-    border-radius: 10px;
     text-align: center;
     color: white;
     width: 250px;
    /* width: 300px;*/
 }
 
-.plan h3 {
+h3 {
+    /*margin-top: 10px;*/
     margin-bottom: 10px;
+    font-size:25px;
+    font-family: "Jockey One", sans-serif;
+    text-align: center;       /* Centraliza o título */
+    
+     
+}
+
+#segundo{
+    margin-inline-end: 100px; 
 }
 
 .plan p {
-    font-size: 24px;
-    font-weight: bold;
+    font-size:50px;
+    font-family: "Gentium Plus", serif;
 }
 
 .plan ul {
@@ -111,5 +122,11 @@ th, td {
 
 .plan ul li {
     margin-bottom: 10px;
+    font-family: "Gentium Plus", serif;
+    font-size:25px;
 }
 
+#plano{
+    text-align:justify;
+   
+}
