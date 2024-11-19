@@ -96,7 +96,7 @@ th, td {
    /* width: 300px;*/
 }
 
-h3 {
+h1 , h2 , h3 {
     /*margin-top: 10px;*/
     margin-bottom: 10px;
     font-size:25px;
@@ -126,7 +126,46 @@ h3 {
     font-size:25px;
 }
 
-#plano{
-    text-align:justify;
+
+.plano{
+    background:#272525;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 250px;
+    margin-bottom: 424px;
    
+  
+
+}
+
+.plano p{  
+    
+    font-size:50px;
+    font-family: "Gentium Plus", serif;
+
+}
+
+.plano ul{
+
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.plano li  {
+    margin-bottom: 10px;
+    font-family: "Gentium Plus", serif;
+    font-size:25px;
+
+
+}
+
+#li_plano_men{
+    margin-bottom: 55px;
+}
+
+#li_plano_anu{
+    margin-bottom: 55px;
+
 }
